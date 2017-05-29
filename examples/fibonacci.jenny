@@ -1,0 +1,19 @@
+💭 Prints the first 15 numbers of the Fibonacci sequence
+⏩ Fibonacci {
+    startuppa f1 🔜 1🌚
+    startuppa f2 🔜 1🌚
+    startuppa f3 🔜 0🌚
+    startuppa count 🔜 2🌚
+
+    💬 f1🌚
+    💬 f2🌚
+
+    🔄 ↪️count < 15↩️ ⤵
+        innova f3 🔜 f1 ➕ f2🌚
+        innova f1 🔜 f2🌚
+        innova f2 🔜 f3🌚
+        💬 f3🌚
+        innova count 🔜 count ➕ 1🌚
+    ⤴
+    restituisci f1 ➕ f2🌚
+}

@@ -1,0 +1,16 @@
+{
+  "name": "turbojenny",
+  "version": "1.0.0",
+  "description": "The language of tomorrow, today",
+  "main": "tjc.js",
+  "author": "Alberto Coscia <alberto@albertocoscia.me>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "jison": "^0.4.17"
+  },
+  "bin": {
+    "tjc": "tjc.js"
+  }
+}

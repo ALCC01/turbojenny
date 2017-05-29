@@ -1,0 +1,53 @@
+💭 Crea il programma Test
+⏩ Test {
+    💭 Crea una variabile jenny con valore "ciao"
+    startuppa jenny con "ciao"🌚
+    💭 Porta il valore della variabile jenny a -1
+    innova jenny con -1🌚
+    
+    💭 Classico (if / else) do
+    ❓ ↪️jenny == 0↩️ ⤵
+        💭 Non verrà eseguito
+        💬 "Jenny è vero"🌚
+    ⤴ ⁉️ ⤵
+        💭 Verrà eseguito
+        💬 "Jenny è falso"🌚
+    ⤴
+    
+    💭 Porta il valore della variabile jenny a 5
+    innova jenny con 5🌚
+
+    💭 Ciclo while do fino a quando jenny non è 0
+    🔄 ↪️jenny ▶️ -1↩️ ⤵️
+        💬 jenny🌚
+        innova jenny con jenny - 1🌚
+    ⤴
+
+    💭 Dichiara una funzione testz
+    ⚙️ testz ⤵
+        💭 Le variabili sono isolate dallo scope superiore
+        startuppa jenny con "CIAO"🌚
+        💭 Return restituisce il valore ed interrompe l'esecuzione
+        ✅ "CIAO"🌚
+        💭 Non verrà eseguito
+        🗯 "CC"🌚
+    ⤴
+
+    💭 Chiama e stampa il valore restituito da testz
+    💬 "Valore restituito: " + ⚡testz🌚
+
+    💭 Dichiara una funzione test
+    ⚙test ⤵
+        💭 Stampa -1
+        💬 🔝 jenny🌚
+        💭 È possibile utilizzare global per accedere allo scope superiore
+        innova 🔝 jenny con "HELLO"🌚
+        💭 Stampa HELLO
+        💬 🔝 jenny🌚
+        💭 Restituisce la chiamata ad una funzione nello scope superiore
+        ✅ ⚡🔝testz🌚
+    ⤴
+
+    💭 Chiama e stampa il valore restituito da test
+    💬 "Valore restituito: " + ⚡test🌚
+}
